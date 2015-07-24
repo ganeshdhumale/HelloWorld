@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(int)additionMethodValue1:(int) a andValue2:(int) b {
+    
+    return a+b;
+}
+
 @end

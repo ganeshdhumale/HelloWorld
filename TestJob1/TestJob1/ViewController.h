@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(int)additionMethodValue1:(int) a andValue2:(int) b;
 
 @end
 
