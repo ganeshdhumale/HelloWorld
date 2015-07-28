@@ -45,7 +45,7 @@
 
 -(void)testAddition {
     
-    int number = [vc additionMethodValue1:2 andValue2:2];
+    int number = [vc additionMethodValue1:4 andValue2:2];
     
     XCTAssertEqual(4, number);
 }
