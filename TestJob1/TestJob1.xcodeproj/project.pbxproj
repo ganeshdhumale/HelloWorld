@@ -451,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Umeed Kothavala (GXU7L5MK9T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -462,6 +463,7 @@
 				INFOPLIST_FILE = TestJob1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa90e927-0b6c-47d1-8846-f4f36c0ce174";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestJob1.app/TestJob1";
 			};
 			name = Debug;
@@ -470,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Umeed Kothavala (GXU7L5MK9T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -477,6 +480,7 @@
 				INFOPLIST_FILE = TestJob1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa90e927-0b6c-47d1-8846-f4f36c0ce174";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestJob1.app/TestJob1";
 			};
 			name = Release;
@@ -554,6 +558,7 @@
 				86C0748C1B61F34700E21BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
