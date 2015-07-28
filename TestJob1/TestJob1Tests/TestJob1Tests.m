@@ -37,4 +37,12 @@
     }];
 }
 
+
+-(void)testAddition {
+    
+    int number = [vc additionMethodValue1:4 andValue2:2];
+    
+    XCTAssertEqual(4, number);
+}
+
 @end
