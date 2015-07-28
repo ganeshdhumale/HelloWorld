@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
-@interface TestJob1Tests : XCTestCase
+@interface TestJob1Tests : XCTestCase {
+    
+    ViewController *vc;
+}
 
 @end
 
@@ -18,6 +22,8 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    vc = [[ViewController alloc] init];
 }
 
 - (void)tearDown {
